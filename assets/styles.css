@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css?family=Overpass');
+
+body {
+    min-height: 100vh;
+    background-color: hsl(216, 12%, 8%);
+    color: white;
+}
+
+main {
+    font-family: "Overpass", Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    font-size: x-large;
+    font-weight: 700;
+    margin: 10px 0px 0px;
+}
+
+p {
+    font-size: 0.875rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: hsl(217, 12%, 63%);
+}
+
+button {
+    cursor: pointer;
+}
+
+.flex-col {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card {
+    max-width: 350px;
+    height: 375px;
+    border-radius: 15px;
+    padding: 25px;
+    box-sizing: border-box;
+    background-image: radial-gradient(circle at 32.5% 10%, hsl(213, 19%, 18%), hsl(216, 12%, 8%));
+    background-size: 175%;
+}
+
+.rate {
+    align-items: flex-start;
+    
+}
+
+.thanks {
+    display: none;
+}
+
+.star-icon {
+    padding: 16px;
+    background-color: hsl(213, 19%, 18%);
+    border-radius: 50%;
+}
+
+.button-array {
+    width: 100%;
+    margin: 20px 0px;
+}
+
+.rating-button {
+    border: none;
+    color: hsl(217, 12%, 63%);
+    padding: 16px 20px;
+    border-radius: 100%;
+    background-color: hsl(213, 19%, 18%);
+}
+
+.rating-button:hover {
+    background-color: hsl(25, 97%, 53%);
+    color: white;
+}
+
+.submit-button {
+    border: none;
+    width: 100%;
+    padding: 15px;
+    border-radius: 50px;
+    background-color: hsl(25, 97%, 53%);
+    color: white;
+    letter-spacing: 0.125rem;
+}
+
+.submit-button:hover {
+    background-color: white;
+    color: hsl(25, 97%, 53%);
+}
+
+.thank-image {
+    margin: 10px;
+}
+
+.rating-display {
+    padding: 10px 15px;
+    border-radius: 25px;
+    color: hsl(25, 97%, 53%);
+    background-color: hsl(213, 19%, 18%);
+}
+
+.thank-paragraph {
+    text-align: center;
+}
+
+.attribution {
+    font-size: 0.6875rem;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
