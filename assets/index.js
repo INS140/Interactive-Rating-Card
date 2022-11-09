@@ -46,7 +46,6 @@ button1.addEventListener('click', function(e){
         ratingSelected = false
         rating = 0
     }
-    console.log(rating)
 })
 
 button2.addEventListener('click', function(e){
@@ -66,7 +65,6 @@ button2.addEventListener('click', function(e){
         ratingSelected = false
         rating = 0
     }
-    console.log(rating)
 })
 
 button3.addEventListener('click', function(e){
@@ -86,7 +84,6 @@ button3.addEventListener('click', function(e){
         ratingSelected = false
         rating = 0
     }
-    console.log(rating)
 })
 
 button4.addEventListener('click', function(e){
@@ -106,7 +103,6 @@ button4.addEventListener('click', function(e){
         ratingSelected = false
         rating = 0
     }
-    console.log(rating)
 })
 
 button5.addEventListener('click', function(e){
@@ -126,7 +122,6 @@ button5.addEventListener('click', function(e){
         ratingSelected = false
         rating = 0
     }
-    console.log(rating)
 })
 
 submit.addEventListener("click", function() {
